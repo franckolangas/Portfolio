@@ -43,8 +43,7 @@ Bienvenue sur mon portfolio ! Je suis **Franck Loick**, étudiant en développem
 ## Contact
 
 - 📧 **Email** : [franckolangas01@gmail.com](mailto:franckolangas01@gmail.com)
-- 🔗 **LinkedIn** : [Mon profil LinkedIn](www.linkedin.com/in/franck-loick-olangassicka/
-)
+- 🔗 **LinkedIn** : [Mon profil LinkedIn](www.linkedin.com/in/franck-loick-olangassicka)
 
 ---
 

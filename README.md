@@ -11,22 +11,22 @@ Bienvenue sur mon portfolio ! Je suis **Franck Loick**, étudiant en développem
 
 ## Mes Projets
 
-### [Jeu de la Vie](https://github.com/ton-utilisateur/JeuDeLaVie)
+### [Jeu de la Vie](https://github.com/franckolangas/JeuDeLaVie)
 **Description** : Simulation de l'évolution des cellules basée sur le Jeu de la Vie de Conway. Développé en Java avec la bibliothèque Swing pour l'interface graphique.
 - **Technologies** : Java, Swing
 - **Fonctionnalités** : Interface graphique, simulation de cellules, contrôle de la vitesse
 
-### [Bataille Navale](https://github.com/ton-utilisateur/BatailleNavale)
+### [Bataille Navale](https://github.com/franckolangas/BatailleNavale)
 **Description** : Reproduction du célèbre jeu de bataille navale, permettant aux utilisateurs de jouer contre un ordinateur ou un autre joueur.
 - **Technologies** : Java, Swing
 - **Fonctionnalités** : Interface graphique, mode joueur vs joueur, mode joueur vs IA
 
-### [Gestion de Vente de Voiture](https://github.com/ton-utilisateur/GestionVenteVoiture)
+### [Gestion de Vente de Voiture](https://github.com/franckolangas/GestionDeVenteVoiture)
 **Description** : Site web de gestion de vente de voitures avec des fonctionnalités de gestion CRUD (ajout, modification, suppression).
 - **Technologies** : PHP, HTML, CSS, JavaScript
 - **Fonctionnalités** : Système CRUD complet, interface utilisateur simple et efficace
 
-### [Puzzle-Quest](https://github.com/ton-utilisateur/PuzzleQuest)
+### [Puzzle-Quest](https://github.com/franckolangas/PuzzleQuest)
 **Description** : Jeu en Python développé avec Pygame. Le joueur résout divers puzzles et défis pour avancer dans le jeu.
 - **Technologies** : Python, Pygame
 - **Fonctionnalités** : Système de niveaux, résolution de puzzles, interface graphique intuitive

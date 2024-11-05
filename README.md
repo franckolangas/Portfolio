@@ -4,7 +4,7 @@ Bienvenue sur mon portfolio ! Je suis **Franck Loick**, étudiant en développem
 
 ## À propos de moi
 
-- 🎓 **Études** : Licence en informatique, Université de Caen Normandie (2021 - 2024)
+- 🎓 **Études** : Licence en informatique, Université de Caen Normandie (2021 - 2025)
 - 💼 **Recherche** : Actuellement en recherche d'une alternance en développement
 - 💻 **Compétences principales** : Python, Java, PHP, JavaScript, HTML/CSS, SQL, React, Node.js, Docker
 - 🌐 **Langues** : Français, Anglais, Espagnol

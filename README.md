@@ -13,7 +13,7 @@ Bienvenue sur mon portfolio ! Je suis **Franck Loick**, étudiant en développem
 
 ### [Application de Gestion de Tâches](https://github.com/franckolangas/TodoListApp)
 **Description** : Application mobile permettant de gérer des tâches et sous-tâches avec une interface intuitive.
-- **Technologies** : React Native, JavaScript, Expo
+- **Technologies** : React, JavaScript,
 - **Fonctionnalités** :  
   - Affichage d'une liste de tâches  
   - Ajout, modification et suppression de tâches  

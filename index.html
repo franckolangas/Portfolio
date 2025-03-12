@@ -6,113 +6,112 @@
     <title>Portfolio de Franck Loick</title>
     <style>
         /* Styles de base */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body {
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    background-color: #f5f7fa;
-    line-height: 1.6;
-}
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f5f7fa;
+            line-height: 1.6;
+        }
 
-/* En-tête */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
+        /* En-tête */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
 
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-}
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
 
-header p {
-    font-size: 1.2rem;
-    color: #ddd;
-}
+        header p {
+            font-size: 1.2rem;
+            color: #ddd;
+        }
 
-/* Section des projets */
-section {
-    max-width: 1000px;
-    margin: 30px auto;
-    padding: 0 20px;
-}
+        /* Section des projets */
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
 
-section h2 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #4CAF50;
-    padding-bottom: 10px;
-}
+        section h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
 
-/* Carte de projet */
-.project {
-    background: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+        /* Carte de projet */
+        .project {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
-.project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
-}
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
+        }
 
-.project h3 {
-    font-size: 1.5rem;
-    color: #4CAF50;
-    margin-bottom: 10px;
-}
+        .project h3 {
+            font-size: 1.5rem;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
 
-.project p {
-    margin-bottom: 15px;
-    font-size: 1rem;
-    color: #666;
-}
+        .project p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            color: #666;
+        }
 
-/* Bouton de lien vers GitHub */
-.project a {
-    text-decoration: none;
-    color: #4CAF50;
-    font-weight: bold;
-    display: inline-block;
-    margin-top: 10px;
-    border: 2px solid #4CAF50;
-    padding: 8px 16px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
+        /* Bouton de lien vers GitHub */
+        .project a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+            border: 2px solid #4CAF50;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
 
-.project a:hover {
-    background-color: #4CAF50;
-    color: #fff;
-}
+        .project a:hover {
+            background-color: #4CAF50;
+            color: #fff;
+        }
 
-/* Responsive */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
 
-    section h2 {
-        font-size: 1.5rem;
-    }
+            section h2 {
+                font-size: 1.5rem;
+            }
 
-    .project h3 {
-        font-size: 1.2rem;
-    }
-}
-
+            .project h3 {
+                font-size: 1.2rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -120,25 +119,86 @@ section h2 {
         <h1>Portfolio de Franck Loick</h1>
         <p>Étudiant en développement d'applications, passionné par la technologie</p>
     </header>
+    
     <section>
         <h2>Mes Projets</h2>
 
         <div class="project">
+            <h3>Application de Gestion de Tâches</h3>
+            <p>Application permettant de gérer des tâches et sous-tâches avec une interface intuitive.</p>
+            <p><strong>Technologies :</strong> React, JavaScript</p>
+            <p><strong>Fonctionnalités :</strong></p>
+            <ul>
+                <li>Ajout, modification et suppression de tâches</li>
+                <li>Gestion des sous-tâches</li>
+                <li>Interface utilisateur responsive</li>
+            </ul>
+            <a href="https://github.com/franckolangas/TodoListApp" target="_blank">Voir sur GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Jeu de Combat</h3>
+            <p>Jeu de stratégie où les joueurs se déplacent sur une grille et interagissent avec des obstacles et adversaires.</p>
+            <p><strong>Technologies :</strong> Java, Swing, Patterns (Stratégie, Proxy, Factory...)</p>
+            <p><strong>Fonctionnalités :</strong></p>
+            <ul>
+                <li>Mode solo contre IA et mode multijoueur</li>
+                <li>Déplacement sur une grille avec gestion des obstacles</li>
+                <li>Système de combat tour par tour</li>
+                <li>Interface graphique intuitive</li>
+            </ul>
+            <a href="https://github.com/franckolangas/JeuDeCombat" target="_blank">Voir sur GitHub</a>
+        </div>
+
+        <div class="project">
             <h3>Jeu de la Vie</h3>
-            <p>Simulation de l'évolution des cellules dans le jeu de la vie de Conway.</p>
-            <a href="https://github.com/franckolangas/JeuDeLaVie" target="_blank">Voir le projet sur GitHub</a>
+            <p>Simulation interactive de l'évolution des cellules selon les règles du jeu de la vie de Conway.</p>
+            <p><strong>Technologies :</strong> Java, Swing</p>
+            <p><strong>Fonctionnalités :</strong></p>
+            <ul>
+                <li>Interface graphique</li>
+                <li>Simulation interactive</li>
+                <li>Contrôle de la vitesse</li>
+            </ul>
+            <a href="https://github.com/franckolangas/JeuDeLaVie" target="_blank">Voir sur GitHub</a>
         </div>
 
         <div class="project">
             <h3>Bataille Navale</h3>
-            <p>Reproduction du jeu de bataille navale en Java avec interface graphique.</p>
-            <a href="https://github.com/franckolangas/BatailleNavale" target="_blank">Voir le projet sur GitHub</a>
+            <p>Version numérique du célèbre jeu de bataille navale avec un mode solo et multijoueur.</p>
+            <p><strong>Technologies :</strong> Java, Swing</p>
+            <p><strong>Fonctionnalités :</strong></p>
+            <ul>
+                <li>Mode joueur vs joueur</li>
+                <li>Mode joueur vs IA</li>
+            </ul>
+            <a href="https://github.com/franckolangas/BatailleNavale" target="_blank">Voir sur GitHub</a>
         </div>
 
         <div class="project">
             <h3>Gestion de Vente de Voiture</h3>
-            <p>Site de gestion de ventes de voitures avec PHP et JavaScript.</p>
-            <a href="https://github.com/franckolangas/GestionVenteVoiture" target="_blank">Voir le projet sur GitHub</a>
+            <p>Site web permettant la gestion des ventes de voitures avec un système CRUD complet.</p>
+            <p><strong>Technologies :</strong> PHP, HTML, CSS, JavaScript</p>
+            <p><strong>Fonctionnalités :</strong></p>
+            <ul>
+                <li>Ajout, modification et suppression de véhicules</li>
+                <li>Gestion des stocks et clients</li>
+                <li>Interface utilisateur intuitive</li>
+            </ul>
+            <a href="https://github.com/franckolangas/GestionVenteVoiture" target="_blank">Voir sur GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>Puzzle Quest</h3>
+            <p>Jeu où le joueur doit résoudre divers puzzles pour progresser.</p>
+            <p><strong>Technologies :</strong> Python, Pygame</p>
+            <p><strong>Fonctionnalités :</strong></p>
+            <ul>
+                <li>Système de niveaux</li>
+                <li>Résolution de puzzles</li>
+                <li>Interface graphique intuitive</li>
+            </ul>
+            <a href="https://github.com/franckolangas/PuzzleQuest" target="_blank">Voir sur GitHub</a>
         </div>
 
     </section>

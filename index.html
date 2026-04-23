@@ -34,11 +34,13 @@
         }
 
         header p {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             color: #ddd;
+            max-width: 900px;
+            margin: 0 auto;
         }
 
-        /* Section des projets */
+        /* Section */
         section {
             max-width: 1000px;
             margin: 30px auto;
@@ -47,13 +49,12 @@
 
         section h2 {
             font-size: 2rem;
-            color: #333;
             margin-bottom: 20px;
             border-bottom: 2px solid #4CAF50;
             padding-bottom: 10px;
         }
 
-        /* Carte de projet */
+        /* Projet */
         .project {
             background: #fff;
             padding: 20px;
@@ -75,22 +76,24 @@
         }
 
         .project p {
-            margin-bottom: 15px;
-            font-size: 1rem;
-            color: #666;
+            margin-bottom: 10px;
+            color: #555;
         }
 
-        /* Bouton de lien vers GitHub */
+        .project ul {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
         .project a {
-            text-decoration: none;
-            color: #4CAF50;
-            font-weight: bold;
             display: inline-block;
             margin-top: 10px;
+            text-decoration: none;
+            color: #4CAF50;
             border: 2px solid #4CAF50;
             padding: 8px 16px;
             border-radius: 4px;
-            transition: background-color 0.3s ease, color 0.3s ease;
+            transition: 0.3s;
         }
 
         .project a:hover {
@@ -115,106 +118,122 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Portfolio de Franck Loick</h1>
-        <p>💻 Étudiant en Master Architecture des Systèmes d’Information au CESI, je me spécialise dans le développement Full Stack et la gestion de projets IT. Passionné par les nouvelles technologies, j’explore des environnements variés : PHP, JavaScript, SQL, Symfony, React, Power BI, Docker, GitLab. Mon objectif est de concevoir des solutions digitales performantes et sécurisées, tout en développant mes compétences en DevOps et gestion de projet agile. Actuellement en recherche d’alternance, j’alimente ce GitHub avec mes projets académiques et personnels pour partager ma progression et mes réalisations. 🚀</p>
-    </header>
-    
-    <section>
-        <h2>Mes Projets</h2>
 
-        <div class="project">
-            <h3>Analyse du désordre et évaluation des algorithmes de tri</h3>
-            <p>Projet de recherche sur l'impact du désordre initial sur l'efficacité des algorithmes de tri.</p>
-            <p><strong>Technologies :</strong> Java, Swing, Python, SVN, Shell</p>
-            <p><strong>Fonctionnalités :</strong></p>
-            <ul>
-                <li>Génération et mesure du désordre dans des listes</li>
-                <li>Implémentation et comparaison de plusieurs algorithmes de tri (QuickSort, MergeSort, BubbleSort...)</li>
-                <li>Interface graphique pour visualiser les résultats</li>
-                <li>Ajustement dynamique du niveau de désordre et contrôle de la vitesse</li>
-            </ul>
-            <a href="https://github.com/franckolangas/AnalyseDesordreTri" target="_blank">Voir sur GitHub</a>
-        </div>
-        
-        <div class="project">
-            <h3>Application de Gestion de Tâches</h3>
-            <p>Application permettant de gérer des tâches et sous-tâches avec une interface intuitive.</p>
-            <p><strong>Technologies :</strong> React, JavaScript</p>
-            <p><strong>Fonctionnalités :</strong></p>
-            <ul>
-                <li>Ajout, modification et suppression de tâches</li>
-                <li>Gestion des sous-tâches</li>
-                <li>Interface utilisateur responsive</li>
-            </ul>
-            <a href="https://github.com/franckolangas/TodoListApp" target="_blank">Voir sur GitHub</a>
-        </div>
+<header>
+    <h1>Portfolio de Franck Loick</h1>
+    <p>
+        💻 Développeur Full-Stack en formation, spécialisé dans les applications web modernes, scalables et orientées architecture.
+        Passionné par les systèmes distribués, les APIs et les architectures microservices.
+    </p>
+</header>
 
-        <div class="project">
-            <h3>Jeu de Combat</h3>
-            <p>Jeu de stratégie où les joueurs se déplacent sur une grille et interagissent avec des obstacles et adversaires.</p>
-            <p><strong>Technologies :</strong> Java, Swing, Patterns (Stratégie, Proxy, Factory...)</p>
-            <p><strong>Fonctionnalités :</strong></p>
-            <ul>
-                <li>Mode solo contre IA et mode multijoueur</li>
-                <li>Déplacement sur une grille avec gestion des obstacles</li>
-                <li>Système de combat tour par tour</li>
-                <li>Interface graphique intuitive</li>
-            </ul>
-            <a href="https://github.com/franckolangas/JeuDeCombat" target="_blank">Voir sur GitHub</a>
-        </div>
+<section>
+    <h2>Compétences</h2>
+    <p>
+        Frontend : React, Next.js, JavaScript<br>
+        Backend : Node.js, Java, Python<br>
+        Base de données : PostgreSQL, SQL<br>
+        Outils : Docker, Git, Linux
+    </p>
+</section>
 
-        <div class="project">
-            <h3>Jeu de la Vie</h3>
-            <p>Simulation interactive de l'évolution des cellules selon les règles du jeu de la vie de Conway.</p>
-            <p><strong>Technologies :</strong> Java, Swing</p>
-            <p><strong>Fonctionnalités :</strong></p>
-            <ul>
-                <li>Interface graphique</li>
-                <li>Simulation interactive</li>
-                <li>Contrôle de la vitesse</li>
-            </ul>
-            <a href="https://github.com/franckolangas/JeuDeLaVie" target="_blank">Voir sur GitHub</a>
-        </div>
+<section>
+    <h2>Mes Projets</h2>
 
-<!--         <div class="project">
-            <h3>Bataille Navale</h3>
-            <p>Version numérique du célèbre jeu de bataille navale avec un mode solo et multijoueur.</p>
-            <p><strong>Technologies :</strong> Java, Swing</p>
-            <p><strong>Fonctionnalités :</strong></p>
-            <ul>
-                <li>Mode joueur vs joueur</li>
-                <li>Mode joueur vs IA</li>
-            </ul>
-            <a href="https://github.com/franckolangas/BatailleNavale" target="_blank">Voir sur GitHub</a>
-        </div> -->
+    <div class="project">
+        <h3>Application de gestion de groupes (Next.js)</h3>
+        <p>Génération automatique de groupes équilibrés pour événements.</p>
+        <p><strong>Technologies :</strong> Next.js, TypeScript, React</p>
+        <ul>
+            <li>Génération de groupes</li>
+            <li>Gestion des participants</li>
+            <li>Export CSV / PDF</li>
+        </ul>
+        <a href="#">Voir la démo</a>
+        <a href="#">Voir le code</a>
+    </div>
 
-<!--         <div class="project">
-            <h3>Gestion de Vente de Voiture</h3>
-            <p>Site web permettant la gestion des ventes de voitures avec un système CRUD complet.</p>
-            <p><strong>Technologies :</strong> PHP, HTML, CSS, JavaScript</p>
-            <p><strong>Fonctionnalités :</strong></p>
-            <ul>
-                <li>Ajout, modification et suppression de véhicules</li>
-                <li>Gestion des stocks et clients</li>
-                <li>Interface utilisateur intuitive</li>
-            </ul>
-            <a href="https://github.com/franckolangas/GestionVenteVoiture" target="_blank">Voir sur GitHub</a>
-        </div> -->
+    <div class="project">
+        <h3>Analyse des algorithmes de tri</h3>
+        <p>Étude de l’impact du désordre sur les algorithmes de tri.</p>
+        <p><strong>Technologies :</strong> Java, Python</p>
+        <ul>
+            <li>Comparaison QuickSort, MergeSort, BubbleSort</li>
+            <li>Interface graphique</li>
+        </ul>
+        <a href="https://github.com/franckolangas/AnalyseDesordreTri">GitHub</a>
+    </div>
 
-        <div class="project">
-            <h3>Puzzle Quest</h3>
-            <p>Jeu où le joueur doit résoudre divers puzzles pour progresser.</p>
-            <p><strong>Technologies :</strong> Python, Pygame</p>
-            <p><strong>Fonctionnalités :</strong></p>
-            <ul>
-                <li>Système de niveaux</li>
-                <li>Résolution de puzzles</li>
-                <li>Interface graphique intuitive</li>
-            </ul>
-            <a href="https://github.com/franckolangas/PuzzleQuest" target="_blank">Voir sur GitHub</a>
-        </div>
+    <div class="project">
+        <h3>Application de Gestion de Tâches</h3>
+        <p>Todo list avec gestion de sous-tâches.</p>
+        <p><strong>Technologies :</strong> React</p>
+        <ul>
+            <li>CRUD tâches</li>
+            <li>UI responsive</li>
+        </ul>
+        <a href="https://github.com/franckolangas/TodoListApp">GitHub</a>
+    </div>
 
-    </section>
+    <div class="project">
+        <h3>Jeu de Combat</h3>
+        <p>Jeu stratégique tour par tour.</p>
+        <p><strong>Technologies :</strong> Java, Swing</p>
+        <ul>
+            <li>Mode IA / multijoueur</li>
+            <li>Combat sur grille</li>
+        </ul>
+        <a href="https://github.com/franckolangas/JeuDeCombat">GitHub</a>
+    </div>
+
+    <div class="project">
+        <h3>Jeu de la Vie</h3>
+        <p>Simulation de Conway.</p>
+        <p><strong>Technologies :</strong> Java</p>
+        <a href="https://github.com/franckolangas/JeuDeLaVie">GitHub</a>
+    </div>
+
+    <div class="project">
+        <h3>Puzzle Quest</h3>
+        <p>Jeu de puzzles progressifs.</p>
+        <p><strong>Technologies :</strong> Python</p>
+        <a href="https://github.com/franckolangas/PuzzleQuest">GitHub</a>
+    </div>
+
+    <div class="project">
+        <h3>🎟️ Ticketing SaaS – Microservices</h3>
+        <p>
+            Plateforme de billetterie en microservices avec gestion de forte concurrence et anti-survente.
+        </p>
+
+        <p><strong>🚀 Points clés :</strong></p>
+        <ul>
+            <li>Microservices (auth, user, event, order, payment...)</li>
+            <li>RabbitMQ (asynchrone)</li>
+            <li>API Gateway Nginx</li>
+            <li>Tests de charge (k6)</li>
+            <li>Docker Compose</li>
+        </ul>
+
+        <p><strong>📊 Résultats :</strong></p>
+        <ul>
+            <li>Flux complet validé</li>
+            <li>30 tentatives / 5 succès / 25 conflits</li>
+            <li>❌ aucune survente</li>
+        </ul>
+
+        <p><strong>🧠 Appris :</strong> architecture distribuée, concurrence, event-driven, tests de charge</p>
+
+        <p><strong>🛠️ Stack :</strong> Node.js · PostgreSQL · RabbitMQ · Docker · Nginx · OpenAPI · k6</p>
+    </div>
+
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email : franckolangas01@gmail.com</p>
+    <p>GitHub : github.com/franckolangas</p>
+</section>
+
 </body>
 </html>
